@@ -7,7 +7,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-
+/* Header */
 header {
     margin: 0 240px 0 240px;
 }
@@ -26,7 +26,7 @@ ul {
 }
 
 .first img {
-    width: 75px;
+    width: 80px;
     height: 40px;
 }
 
@@ -41,4 +41,59 @@ ul {
 .second li {
     font-size: 18px;
     font-weight: 500;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner img {
+    width: 720px;
+    height: 680px;
+}
+
+.banner-content {
+    max-width: 365px;
+}
+
+
+.banner-main-title {
+    font-size: 95px;
+    font-weight: bolder;
+    color: #F948B2;
+}
+.banner-sub-title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner h6 i {
+    color: #F948B2;
+}
+
+.primary-btn {
+    background-color: #FF42A5;
+    color: #fff;
+    padding: 21px 40px 21px 40px;
+    border-radius: 40px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.special-btn {
+    background-color: #4EC5F7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 40px;
+    border: 0;
+    padding: 21px 40px 21px 40px;
 }
