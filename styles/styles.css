@@ -8,10 +8,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 /* Header */
-header {
-    margin: 0 240px 0 240px;
+header, main {
+    margin: 0 240px 55px 240px;
 }
-
 nav, ul {
     display: flex;
     align-items: center;
@@ -19,25 +18,21 @@ nav, ul {
 nav {
     justify-content: space-between;
 }
-
 ul {
     list-style: none;
     gap: 30px;
 }
-
 .first img {
     width: 80px;
     height: 40px;
 }
-
 .nav-heading {
     font-size: 45px;
     font-weight: bold;
 }
-.nav-heading span {
+.special {
     color: #FF42A5;
 }
-
 .second li {
     font-size: 18px;
     font-weight: 500;
@@ -53,31 +48,27 @@ ul {
     width: 720px;
     height: 680px;
 }
-
-.banner-content {
-    max-width: 365px;
-}
-
-
 .banner-main-title {
     font-size: 95px;
     font-weight: bolder;
     color: #F948B2;
+    margin-bottom: 24px;
 }
 .banner-sub-title {
     font-size: 48px;
     font-weight: 600;
 }
-
-.banner h6 {
+.details {
+    margin-bottom: 24px;
+}
+.details h6 {
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
-
-.banner h6 i {
+.details h6 i {
     color: #F948B2;
 }
-
 .primary-btn {
     background-color: #FF42A5;
     color: #fff;
@@ -87,7 +78,6 @@ ul {
     font-size: 20px;
     font-weight: 500;
 }
-
 .special-btn {
     background-color: #4EC5F7;
     color: #fff;
@@ -96,4 +86,72 @@ ul {
     border-radius: 40px;
     border: 0;
     padding: 21px 40px 21px 40px;
+    margin-left: 24px;
+}
+
+/* Gamer */
+.gamer {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    margin-bottom: 175px;
+}
+
+.gamer-content {
+    text-align: right;
+}
+
+.gamer-content .gamer-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F948B2;
+    margin-bottom: 24px;
+}
+
+.gamer-content .gamer-description {
+    font-size: 18px;
+    color: #534C64;
+    margin-bottom: 32px;
+}
+
+.gamer-content .primary-btn {
+    margin-bottom: 30px;
+}
+
+.gamer-content .extra {
+    font-size: 24px;
+    font-weight: 500;
+    color: #534C64;
+    margin-bottom: 24px;
+}
+
+.gamer-content .quote {
+    font-size: 32px;
+    font-weight: bold;
+    color: #534C64;
+}
+
+/* Online-Games */
+.online-games-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.online-games-description {
+    font-size: 18px;
+    color: #534C64;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.first-container {
+    display: flex;
+    gap: 24px;
+}
+
+.first-container .game-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 24px;
 }
