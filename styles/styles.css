@@ -22,6 +22,16 @@ ul {
     list-style: none;
     gap: 30px;
 }
+.nav-options {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.nav-logos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .nav-image {
     width: 80px;
     height: 40px;
@@ -33,9 +43,10 @@ ul {
 .special {
     color: #FF42A5;
 }
-.second li {
+.second-ul li {
     font-size: 18px;
     font-weight: 500;
+    color: #3C354F;
 }
 
 /* Banner */
@@ -150,6 +161,8 @@ ul {
 .online-games-container {
     display: flex;
     gap: 24px;
+    /* align-items: center; */
+    justify-content: center;
 }
 .online-games-container .game-description {
     font-size: 20px;
@@ -285,11 +298,68 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: hsl(0, 0%, 60%);
+    color: #999999;
 }
 .extras .first {
     display: flex;
     gap: 60px;
     justify-content: center;
     margin-bottom: 18px;
+}
+
+/* Responsive for Mobile Devices */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    /* Header & Nav */
+    header, main {
+        margin: 0;
+    }
+    nav, .second-ul, .nav-options {
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 100px;
+        gap: 62px;
+    }
+    .nav-options {
+        gap: 36px;
+    }
+    .second-ul {
+        gap: 62px;
+    }
+
+    /* Banner */
+    .banner {
+        margin-top: 74px;
+        flex-direction: column-reverse;
+        gap: 150px;
+    }
+    .banner-image img {
+        width: 100%;
+    }
+
+    /* Main */
+    /* Gamer */
+    .gamer {
+        margin-top: 200px;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .gamer-image img {
+        width: 100%;
+    }
+    .gamer-content {
+        text-align: center;
+    }
+
+    /* Online Games */
+    .online-games-container {
+        flex-direction: column;
+    }
+    .online-games-container img {
+        width: 100%;
+    }
 }
