@@ -362,4 +362,37 @@ footer {
     .online-games-container img {
         width: 100%;
     }
+
+    /* First Container */
+    .first-container {
+        flex-direction: column;
+        gap: 70px;
+    }
+    .container-images {
+        margin-left: 100px;
+    }
+    .container-images .first-img {
+        width: 75%;
+    }
+    .first-container .container-images .special-img  {
+        width: 30%;
+        top: 160px;
+        left: -45px;
+    }
+    .container-info {
+        text-align: center;
+    }
+    /* Second Container */
+    .second-container {
+        flex-direction: column;
+        gap: 70px;
+    }
+    .second-container .container-images .special-img {
+        width: 30%;
+        top: 135px;
+        left: 185px;
+    }
+    .container-title {
+        margin-bottom: 60px;
+    }
 }
