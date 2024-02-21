@@ -161,7 +161,6 @@ ul {
 .online-games-container {
     display: flex;
     gap: 24px;
-    /* align-items: center; */
     justify-content: center;
 }
 .online-games-container .game-description {
@@ -169,6 +168,42 @@ ul {
     font-weight: 500;
     color: #534C64;
     margin-top: 24px;
+}
+.image {
+    position: relative;
+}
+.image-img {
+    display: block;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 20px;
+}
+.image-overlay:hover {
+    opacity: 1;
+}
+.play-icon {
+    width: 80px;
+}
+.play-icon img {
+    width: 100%;
+}
+.image-description {
+    color: #F948B2;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* Container */
